@@ -1,0 +1,49 @@
+.tooltip {
+  background: white;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #000000;
+}
+
+.tooltipTitle {
+  margin: 0;
+  font-weight: bold;
+}
+
+.tooltipValue {
+  margin: 5px 0 0 0;
+}
+
+.legendList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.legendItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.2s;
+}
+
+.legendItem:hover {
+  opacity: 0.8;
+}
+
+.legendItemHidden {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.legendDot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}

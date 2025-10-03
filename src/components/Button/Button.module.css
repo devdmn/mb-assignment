@@ -1,0 +1,29 @@
+.button {
+  border: none;
+  border-radius: var(--btn-radius, 16px);
+  background: var(--btn-bg, #e3e3e3);
+  color: var(--btn-color, #000000);
+  padding: var(--btn-padding, 0.75rem 1.5rem);
+  cursor: pointer;
+  transition: opacity 0.2s;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.icon {
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
